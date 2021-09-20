@@ -1,0 +1,104 @@
+.container {
+  margin-top: 70px;
+}
+
+.film-container {
+  display: flex;
+  width: 500px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 100px;
+}
+
+.img-wrapper {
+  position: relative;
+  width: 100px;
+  margin-top: -40px;
+  margin-right: 20px;
+}
+
+.img-item {
+  max-width: 100%;
+}
+
+.film-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 320px;
+  color: #9c9489;
+}
+
+.film-title {
+  margin: 0 0 30px;
+  padding: 0;
+  font-size: 18px;
+}
+
+.genre {
+  position: absolute;
+  padding: 5px;
+  top: 20px;
+  right: 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  transform: translate(50%);
+  background-color: #ff9910;
+}
+
+.film-service {
+  display: flex;
+}
+
+.buy {
+  padding: 5px 15px;
+  margin-right: 30px;
+  font-size: 16px;
+  background-color: #9c9489;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.more {
+  padding: 5px 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #9c9489;
+  cursor: pointer;
+}
+
+.film-reactions {
+  display: flex;
+  padding-top: 20px;
+  align-items: start;
+}
+
+.like {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url("../../assets/heart-fill.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.share {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/share.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 10px;
+  padding-inline-start: 0;
+}
